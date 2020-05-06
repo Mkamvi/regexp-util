@@ -3,6 +3,14 @@
 * date 2019-12-28 09:36:06
 */
 
+
+/* -------------------------------------------------------------------------- */
+/*                             Todo: Module Update                            */
+/* -------------------------------------------------------------------------- */
+
+export * as StringUtil from './StringUtil';
+
+
 // 手机号码
 export const MOBILE_PHONE = /^1[3456789]\d{9}$/;
 
@@ -14,7 +22,6 @@ export const NEGATIVE_INTEGER = /^-[1-9]\d*$/;
 
 // 整数
 export const ALL_INTEGER = /^-?[1-9]\d*$/;
-
 
 
 
